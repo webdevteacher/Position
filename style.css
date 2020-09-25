@@ -1,0 +1,36 @@
+.parent {
+ border: 2px black dotted;
+ display: inline-block;
+}
+
+.box {
+ display: inline-block;
+ background: red;
+ width: 100px;
+ height: 100px;
+}
+
+/*
+#two {
+  background: green;
+}
+*/
+#two {
+  top: 20px;
+  left: 20px;
+  background: green;
+  position: relative;
+}/*
+
+#two {
+  top: 20px;
+  left: 20px;
+  background: green;
+  position: absolute;
+}*/
+
+/*
+position: relative places an element relative to its current position
+without changing the layout around it, whereas position: absolute places 
+an element relative to its parent’s position and changing the layout around it.
+*/
